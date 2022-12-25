@@ -6,7 +6,7 @@
 12821 -> да
 23432 -> да 
     /* РЕШЕНИЕ МЕТОДОМ СТРОК*/
-       
+    Console.Clear();
     Console.Write("Введите пятизначное число для проверки на палиндром: ");
     string pol = Console.ReadLine();
     if(pol[0] == '-') {pol=pol.Substring(1);}  
